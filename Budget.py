@@ -70,6 +70,7 @@ class Budget:
 food = Budget(allocation = 20000,expenses = 5000)
 clothing = Budget (allocation = 4000, expenses = 0)
 Entertainment = Budget (allocation = 5000, expenses = 2500)
+# Trying out some of the methods on the categories
 print(food.withdrawal(3000))
 
 print(clothing.transfer_balance(food,2000))
